@@ -1,0 +1,264 @@
+@import url(fonts.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: #282828;
+  height: 65px;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.nav__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav__logo {
+  padding-top: 6px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 30px;
+}
+
+.nav__list-link {
+  color: #fff;
+  text-align: right;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: 0.5s;
+}
+
+.nav__list-link:hover {
+  color: #ffd700;
+}
+
+.nav__tools {
+  display: flex;
+  gap: 25px;
+}
+
+.header__bg {
+  height: 600px;
+  background: url(../images/Header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__bg-title {
+  color: #fff;
+  font-family: "Prosto One";
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75px; /* 75% */
+}
+
+.header__bg-link {
+  color: #171718;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background: #fff;
+  padding: 13px 0 13px 14px;
+  border-radius: 10px;
+  margin: 38px;
+  transition: 0.5s;
+}
+
+.header__bg-link:hover {
+  color: #fff;
+  background: #515151;
+}
+
+.img__vector {
+  margin: 0 14px 0 11px;
+}
+
+.main {
+  background: #151515;
+}
+
+.section__first {
+  display: flex;
+  padding-top: 30px;
+}
+
+.section__first-descr {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 100px 30px 100px 0;
+}
+
+.section__second-descr {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 151px 12px 150px 87px;
+}
+.section__second {
+  display: flex;
+  padding-top: 50px;
+}
+.black_pods {
+  padding-left: 12px;
+}
+
+.section__third {
+  display: flex;
+
+  padding-top: 50px;
+}
+
+.section__thid-descr {
+  color: #fff;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 145px 11px 110px 0;
+}
+
+.section__fourth-descr {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 133px 0 98px 11px;
+}
+
+.line {
+  width: 250px;
+  background: #c4c4c4;
+  height: 1px;
+  margin: 204px 13px 170px 13px;
+}
+
+.models__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0 55px 0;
+}
+
+.models__section-card {
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 47px;
+  border-radius: 6px;
+  max-width: 255px;
+}
+
+.section-card__title {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.section-card__price {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 10px 0 20px 0;
+}
+
+.section-card__link {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background: #151515;
+  padding: 7px 57px;
+  border: 1px solid white;
+  transition: 0.5s;
+}
+
+.section-card__link:hover {
+  color: #000;
+  background: #ffffff;
+  border: 1px solid black;
+}
+
+.footer {
+  background: #282828;
+  height: 215px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 76px 0;
+}
+
+.footer__links {
+  display: flex;
+  gap: 30px;
+}
